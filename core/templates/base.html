@@ -1,0 +1,14 @@
+{% load static %}
+<html>
+{% include 'includes/head.html' %}
+<body class="loading-overlay-showing" data-plugin-page-transition data-loading-overlay data-plugin-options="{'hideDelay': 100}">
+
+{% include 'includes/header.html' %}
+{% block main %}
+
+{% endblock %}
+{% include 'includes/footer.html' %}
+
+{% include 'includes/js.html' %}
+</body>
+</html>
